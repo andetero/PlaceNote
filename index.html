@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>PlaceNote</title>
+  <meta name="description" content="PlaceNote delivers the right note when you arrive at or leave a saved location.">
+  <style>
+    * { box-sizing: border-box; }
+    :root { color-scheme: light dark; --bg:#f6f7fb; --card:#ffffff; --text:#17181c; --muted:#686b73; --line:#e5e7ec; --accent:#3478f6; }
+    @media (prefers-color-scheme: dark) { :root { --bg:#101114; --card:#17181c; --text:#f4f4f5; --muted:#a3a5ad; --line:#2b2d33; --accent:#6da2ff; } }
+    body { margin:0; background:var(--bg); color:var(--text); font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    main { max-width:760px; margin:0 auto; padding:72px 24px 48px; }
+    .mark { width:56px; height:56px; display:grid; place-items:center; border-radius:16px; background:var(--accent); color:white; font-size:28px; margin-bottom:24px; }
+    h1 { font-size:42px; line-height:1.1; margin:0 0 12px; letter-spacing:-.03em; }
+    h2 { font-size:20px; margin:32px 0 8px; }
+    p { margin:0 0 16px; color:var(--muted); }
+    .lead { font-size:20px; max-width:620px; }
+    .card { background:var(--card); border:1px solid var(--line); border-radius:18px; padding:24px; margin:28px 0; }
+    .links { display:flex; gap:12px; flex-wrap:wrap; margin-top:28px; }
+    a.button { display:inline-block; padding:11px 16px; border-radius:10px; border:1px solid var(--line); color:var(--text); text-decoration:none; background:var(--card); }
+    a { color:var(--accent); }
+    ul { padding-left:22px; color:var(--muted); }
+    footer { border-top:1px solid var(--line); margin-top:48px; padding-top:22px; color:var(--muted); font-size:14px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="mark" aria-hidden="true">⌖</div>
+  <h1>PlaceNote</h1>
+  <p class="lead">Save a note to a place and get reminded when you arrive or leave.</p>
+
+  <div class="card">
+    <h2 style="margin-top:0">Location reminders that travel with you</h2>
+    <ul>
+      <li>Save reminders for addresses, businesses, or GPS coordinates.</li>
+      <li>Choose arrival or departure and a reminder radius.</li>
+      <li>Use one-time reminders or repeat them on every visit.</li>
+      <li>Edit or delete saved Place Notes at any time.</li>
+    </ul>
+    <p>PlaceNote is designed to keep your saved notes and location reminder data on your device.</p>
+  </div>
+
+  <div class="links">
+    <a class="button" href="privacy.html">Privacy Policy</a>
+    <a class="button" href="support.html">Support</a>
+  </div>
+
+  <footer>© 2026 Pyoba LLC</footer>
+</main>
+</body>
+</html>
